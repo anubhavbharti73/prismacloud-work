@@ -2,6 +2,7 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   name: shopdeploy
+  namespace: shoping-app
 spec:
   replicas: 2
   selector:
@@ -88,6 +89,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: shopsvc
+  namespace: shoping-app
 spec:
   selector:
     app: shop
