@@ -23,6 +23,7 @@ spec:
           securityContext:
             allowPrivilegeEscalation: false
             runAsNonRoot: true
+              runAsUser: user1
             readOnlyRootFilesystem: true
           resources:
             requests:
@@ -40,6 +41,7 @@ spec:
           securityContext:
             allowPrivilegeEscalation: false
             runAsNonRoot: true
+              runAsUser: user1
             readOnlyRootFilesystem: true
           resources:
             requests:
@@ -57,6 +59,7 @@ spec:
           securityContext:
             allowPrivilegeEscalation: false
             runAsNonRoot: true
+              runAsUser: user1
             readOnlyRootFilesystem: true
           resources:
             requests:
@@ -74,6 +77,7 @@ spec:
           securityContext:
             allowPrivilegeEscalation: false
             runAsNonRoot: true
+              runAsUser: user1
             readOnlyRootFilesystem: true
           resources:
             requests:
